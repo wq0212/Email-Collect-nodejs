@@ -1,17 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>이메일 수집</title>
-</head>
-<body>
-    <div class="Email_Box">
-        <form method="post">
-            <input id="email" name="email" type="text" autocomplete="off" placeholder="이메일">
-            <input type="submit" id="submit">
-        </form>
-    </div>
-</body>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/email.css"/>
+
+        <title>이메일 수집</title>
+    </head>
+    <body>
+        <div class="Main_Box">
+            <div class="Email_Box">
+                <h3>이메일을 남기시면 출시되었을 때 알려드릴게요😃</h3>
+                <form method="post">
+                    <input id="email" name="email" type="text" autocomplete="off" placeholder="이메일">
+                    <br>
+                    <button type="submit" id="submit">제출</button>
+                    <p>제출을 하시면 출시되었을 때 알림 및 유저피드백을 위한 개인정보 수집에 동의한 것으로 간주합니다.</p>
+                    <p>개발자에게 피드백을 원하시면,<a href="https://open.kakao.com/o/sQrBkxee">여기</a>를 눌려주세요</p>
+                </form>
+            </div>
+        </div>
+    </body>
 </html>
